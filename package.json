@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "4teamwork eslint ruleset",
   "main": "index.js",
+  "scripts": {
+    "postversion": "git push --tags && npm publish --access=public && git push",
+    "release": "yarn version"
+  },
   "publishConfig": {
     "access": "public"
   },
