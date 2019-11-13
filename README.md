@@ -5,7 +5,7 @@
 Run the following:
 
 ```bash
-yarn add eslint prettier @4tw/eslint-config
+$ yarn add --dev eslint prettier @4tw/eslint-config
 ```
 
 Then add this in your `.eslintrc.js`:
