@@ -14,6 +14,9 @@ module.exports = {
     // https://github.com/cypress-io/eslint-plugin-cypress/blob/master/lib/config/recommended.js
     'plugin:cypress/recommended'
   ],
+  parserOptions: {
+    parser: 'babel-eslint'
+  },
   rules: {
     // require trailing commas in multiline object literals
     'comma-dangle': [
