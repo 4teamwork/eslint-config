@@ -7,14 +7,16 @@ module.exports = {
   extends: [
     // https://github.com/nuxt/eslint-config/blob/master/packages/eslint-config/index.js
     '@nuxtjs',
-    // https://github.com/nuxt/eslint-plugin-nuxt/blob/master/lib/configs/recommended.js
-    'plugin:nuxt/recommended',
-    // https://github.com/cypress-io/eslint-plugin-cypress/blob/master/lib/config/recommended.js
-    'plugin:cypress/recommended',
     // https://github.com/prettier/eslint-config-prettier/blob/master/index.js
     'prettier',
     // https://github.com/prettier/eslint-config-prettier/blob/master/vue.js
     'prettier/vue',
+    // https://github.com/nuxt/eslint-plugin-nuxt/blob/master/lib/configs/recommended.js
+    'plugin:prettier/recommended',
+    // https://github.com/nuxt/eslint-plugin-nuxt/blob/master/lib/configs/recommended.js
+    'plugin:nuxt/recommended',
+    // https://github.com/cypress-io/eslint-plugin-cypress/blob/master/lib/config/recommended.js
+    'plugin:cypress/recommended',
   ],
   rules: {
     // require trailing commas in multiline object literals
