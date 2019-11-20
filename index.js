@@ -12,10 +12,10 @@ module.exports = {
     // https://github.com/nuxt/eslint-plugin-nuxt/blob/master/lib/configs/recommended.js
     'plugin:nuxt/recommended',
     // https://github.com/cypress-io/eslint-plugin-cypress/blob/master/lib/config/recommended.js
-    'plugin:cypress/recommended'
+    'plugin:cypress/recommended',
   ],
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: 'babel-eslint',
   },
   rules: {
     // require trailing commas in multiline object literals
@@ -26,8 +26,8 @@ module.exports = {
         objects: 'always-multiline',
         imports: 'always-multiline',
         exports: 'always-multiline',
-        functions: 'only-multiline'
-      }
+        functions: 'only-multiline',
+      },
     ],
     // no space before function parentheses
     'space-before-function-paren': [
@@ -35,14 +35,15 @@ module.exports = {
       {
         anonymous: 'always',
         named: 'never',
-        asyncArrow: 'always'
-      }
+        asyncArrow: 'always',
+      },
     ],
     // disallow param reassign
     'no-param-reassign': ['error'],
     // allow console and debugger when developing
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'space-before-function-paren': 'off'
-  }
+    'space-before-function-paren': 'off',
+    'standard/no-callback-literal': 'off',
+  },
 }
