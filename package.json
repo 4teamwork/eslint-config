@@ -17,13 +17,13 @@
   "author": "4teamwork AG",
   "license": "ISC",
   "dependencies": {
-    "@nuxtjs/eslint-config": "^1.1.2",
-    "babel-eslint": "^10.0.3",
-    "eslint-config-prettier": "^6.5.0",
-    "eslint-plugin-cypress": "^2.7.0",
-    "eslint-plugin-nuxt": "^0.5.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-vue": "^6.0.0"
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-cypress": "^2.11.1",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^6.2.2"
   },
   "peerDependencies": {
     "eslint": "^6.6.0",
