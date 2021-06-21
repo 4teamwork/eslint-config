@@ -1,6 +1,6 @@
 {
   "name": "@4tw/eslint-config",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "4teamwork eslint ruleset",
   "main": "index.js",
   "scripts": {
@@ -17,16 +17,16 @@
   "author": "4teamwork AG",
   "license": "ISC",
   "dependencies": {
-    "@nuxtjs/eslint-config": "^3.1.0",
-    "babel-eslint": "^10.1.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-cypress": "^2.11.1",
-    "eslint-plugin-nuxt": "^1.0.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-vue": "^6.2.2"
+    "@babel/eslint-parser": "^7.14.5",
+    "@nuxtjs/eslint-config": "^6.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-cypress": "^2.11.3",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.11.1"
   },
   "peerDependencies": {
-    "eslint": "^6.6.0",
-    "prettier": "^1.19.1"
+    "eslint": "^7.29.0",
+    "prettier": "^2.3.1"
   }
 }
