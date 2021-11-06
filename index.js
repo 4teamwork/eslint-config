@@ -5,8 +5,6 @@ module.exports = {
     '@nuxtjs',
     // https://github.com/prettier/eslint-config-prettier/blob/master/index.js
     'prettier',
-    // https://github.com/prettier/eslint-config-prettier/blob/master/vue.js
-    'prettier/vue',
     // https://github.com/nuxt/eslint-plugin-nuxt/blob/master/lib/configs/recommended.js
     'plugin:prettier/recommended',
     // https://github.com/nuxt/eslint-plugin-nuxt/blob/master/lib/configs/recommended.js
@@ -15,7 +13,8 @@ module.exports = {
     'plugin:cypress/recommended',
   ],
   parserOptions: {
-    parser: 'babel-eslint',
+    parser: '@babel/eslint-parser',
+    requireConfigFile: false,
   },
   rules: {
     // require trailing commas in multiline object literals
