@@ -44,5 +44,8 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'space-before-function-paren': 'off',
     'standard/no-callback-literal': 'off',
+    // Vuetify sometimes uses slot names with a "." (e.g. header.<name>). This
+    // prevents eslint from displaying an error for these slots
+    'vue/valid-v-slot': 'off',
   },
 }
