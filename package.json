@@ -1,6 +1,6 @@
 {
   "name": "@4tw/eslint-config",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "4teamwork eslint ruleset",
   "main": "index.js",
   "scripts": {
