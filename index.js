@@ -47,5 +47,19 @@ module.exports = {
     // Vuetify sometimes uses slot names with a "." (e.g. header.<name>). This
     // prevents eslint from displaying an error for these slots
     'vue/valid-v-slot': 'off',
+    // Define a common imports sort order
+    'import/order': [
+      'error',
+      {
+        alphabetize: { caseInsensitive: true, order: 'asc' },
+        groups: ['builtin', 'external', ['index', 'internal', 'parent', 'sibling']],
+        pathGroups: [
+          {
+            pattern: '@/**',
+            group: 'internal',
+          },
+        ],
+      },
+    ],
   },
 }
